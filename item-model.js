@@ -1,5 +1,6 @@
 const db = require("./fakeDb");
 
+// creates instance of an item
 class Item {
   constructor(name, price) {
     this.name = name;
